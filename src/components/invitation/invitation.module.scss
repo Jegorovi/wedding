@@ -1,0 +1,58 @@
+.invitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("./palm-leaves.png");
+  // font-size: calc(8px + 0.2vw);
+  width: 50.3rem; // fixme
+  height: 100%;
+  border: 1px solid black; // remove this
+
+  .title,
+  .and,
+  .save {
+    font-family: "Parisienne", sans-serif;
+    font-weight: 400;
+    color: rgb(103, 103, 103);
+  }
+
+  .names,
+  .dates {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+  }
+
+  .title {
+    font-size: 3em;
+    margin: 3em 0 0 0;
+  }
+
+  .namesContainer {
+    margin: 0.5em 0 5em 0;
+
+    .names {
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    .and {
+      font-size: 2em;
+      margin: 0.25em 0;
+    }
+  }
+
+  .dates {
+    font-size: 1.6em;
+    margin: 0.5em 0;
+  }
+
+  .save {
+    font-size: 2em;
+    margin: 1em 0 0 0;
+  }
+}
