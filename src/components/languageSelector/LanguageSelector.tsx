@@ -26,11 +26,12 @@ const getFlagFromContext = (lang: Lang) => {
 }
 
 const renderButtons = ({ lang, setLang }: LanguageSelectorProps) => {
-  return Object.keys(Lang).map(language => (
+  return Object.keys(Lang).map((language, key) => (
     <button
       className={cx(styles.langButton, language === lang && styles.active)}
       name={language}
       onClick={e => setLang(e.currentTarget.name as Lang)}
+      key={key}
     >
       {getFlagFromContext(language as Lang)}
     </button>

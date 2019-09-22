@@ -1,11 +1,12 @@
 import React from "react";
+import cx from "classnames";
 import styles from "./invitation.module.scss";
 import { Lang } from "../../context";
 import { translations, translate } from "../../i18t";
 
 export const Invitation: React.FC<{ lang: Lang}> = ({ lang }) => {
   return (
-    <div className={styles.invitation}>
+    <div className={cx(styles.invitation, lang === Lang.ru && styles.ru)}>
       <h1
         className={styles.title}
         dangerouslySetInnerHTML={{ __html: translate(translations[lang].title, "<br/>")}}
