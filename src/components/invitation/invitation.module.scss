@@ -4,55 +4,91 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-image: url("./palm-leaves.png");
-  // font-size: calc(8px + 0.2vw);
-  width: 50.3rem; // fixme
-  height: 100%;
-  border: 1px solid black; // remove this
+  position: relative;
 
-  .title,
-  .and,
-  .save {
-    font-family: "Parisienne", "Comfortaa", sans-serif;
-    font-weight: 400;
-    color: rgb(103, 103, 103);
+  .palmImg {
+    max-width: 44em;
+
+    // @todo handle landscape
+    // @media (orientation: portrait) and (max-width: 480px) {
+    //   max-width: 100%;
+    // }
   }
 
-  .names,
-  .dates {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 400;
+  &.largeText .text {
+    font-size: 0.8em;
+
+    // @media (orientation: portrait) and (max-width: 480px) {
+    //   font-size: 1.7vw;
+    // }
+
+    // @media (orientation: landscape) and (max-height: 735px) {
+    //   font-size: 1.1vh;
+    // }
   }
 
-  .title {
-    font-size: 3em;
-    margin: 3em 0 0 0;
+  &.cyrillic .text {
+    .title {
+      font-size: 2.2em;
+    }
+    .namesContainer .and {
+      font-size: 1.6em;
+    }
   }
 
-  .namesContainer {
-    margin: 0.5em 0 5em 0;
+  .text {
+    position: absolute;
+    font-size: 0.9em;
 
-    .names {
-      font-size: 2.8em;
-      margin: 0;
+    // @media (orientation: portrait) and (max-width: 480px) {
+    //   font-size: 1.8vw;
+    // }
+  
+    // @media (orientation: landscape) and (max-height: 735px) {
+    //   font-size: 1.2vh;
+    // }
+
+    .title,
+    .and,
+    .save {
+      font-family: "Parisienne", "Comfortaa", sans-serif;
+      font-weight: 400;
+      color: rgb(103, 103, 103);
     }
 
-    .and {
+    .names,
+    .dates {
+      font-family: "Comfortaa", sans-serif;
+      font-weight: 400;
+    }
+
+    .title {
+      font-size: 3em;
+      margin: 3em 0 0 0;
+    }
+
+    .namesContainer {
+      margin: 0.5em 0 5em 0;
+
+      .names {
+        font-size: 2.8em;
+        margin: 0;
+      }
+
+      .and {
+        font-size: 2.2em;
+        margin: 0.25em 0;
+      }
+    }
+
+    .dates {
+      font-size: 1.6em;
+      margin: 0.5em 0;
+    }
+
+    .save {
       font-size: 2em;
-      margin: 0.25em 0;
+      margin: 1em 0 0 0;
     }
-  }
-
-  .dates {
-    font-size: 1.6em;
-    margin: 0.5em 0;
-  }
-
-  .save {
-    font-size: 2em;
-    margin: 1em 0 0 0;
   }
 }

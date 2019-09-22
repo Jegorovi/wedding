@@ -1,16 +1,17 @@
 .app {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  box-sizing: border-box;
+  overflow: scroll;
 
-  .content {
+  .invitationSection {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex: 1;
+
+    .happyImg {
+      max-width: 44em;
+    }
   }
 }

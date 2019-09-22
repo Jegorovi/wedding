@@ -3,6 +3,7 @@ import styles from "./App.module.scss";
 import { LanguageContextProvider, Lang } from "../../context";
 import { LanguageSelector } from "../languageSelector/LanguageSelector";
 import { Invitation } from "../invitation/Invitation";
+import { Section } from "../section/Section";
 
 export const App: React.FC = () => {
   const [lang, setLang] = useState(Lang.en);
@@ -11,11 +12,12 @@ export const App: React.FC = () => {
     <LanguageContextProvider value={lang}>
       <div className={styles.app}>
         <LanguageSelector lang={lang} setLang={setLang}/>
-        <div className={styles.content}>
-          <div className={styles.happyImg}>
+        <Section color="green">
+          <div className={styles.invitationSection}>
+            <img src={process.env.PUBLIC_URL + "./happyImg.jpg"} className={styles.happyImg} alt="Happy Sara and Roland"/>
+            <Invitation lang={lang}/>
           </div>
-          <Invitation lang={lang}/>
-        </div>
+        </Section>
       </div>
     </LanguageContextProvider>
   );
