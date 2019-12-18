@@ -1,13 +1,13 @@
 .section {
   width: 100%;
-  height: 100%;
-  padding: 2rem;
+  padding: 2em;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  align-items: center;
 
-  &.green {
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(188,213,128,1) 35%, rgba(67,93,43,1) 100%);
+  @media (max-width: 480px) {
+    &:first-of-type {
+      padding: 0;
+    }
   }
 }

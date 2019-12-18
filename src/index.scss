@@ -5,12 +5,22 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  font-size: 10px;
+}
+
+#root {
+  font-size: 1em;
 }
 
 body {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Comfortaa", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 10px !important;
+}
+
+@media (max-width: 480px) {
+  // Ugly motherfucker
+  .ant-tabs-tab {
+    padding: 8px !important;
+  }
 }

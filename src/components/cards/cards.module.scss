@@ -1,0 +1,17 @@
+.iconCardContainer {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  max-width: 85em;
+
+  @media (max-width: 680px) {
+    grid-template-columns: 1fr;
+  }
+}
+.iconCard {
+  margin: .5em;
+
+  &:hover {
+    transform: scale(1.05);
+    z-index: 10;
+  }
+}

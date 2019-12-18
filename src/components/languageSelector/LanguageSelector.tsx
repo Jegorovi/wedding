@@ -26,16 +26,22 @@ const getFlagFromContext = (lang: Lang) => {
 }
 
 const renderButtons = ({ lang, setLang }: LanguageSelectorProps) => {
-  return Object.keys(Lang).map((language, key) => (
-    <button
-      className={cx(styles.langButton, language === lang && styles.active)}
-      name={language}
-      onClick={e => setLang(e.currentTarget.name as Lang)}
-      key={key}
-    >
-      {getFlagFromContext(language as Lang)}
-    </button>
-  ));
+  return Object.keys(Lang).map((language, key) => {
+    // Disabled until translations are available
+    if ([Lang.pt, Lang.se].includes(language as Lang)) {
+      return null;
+    }
+    return (
+      <button
+        className={cx(styles.langButton, language === lang && styles.active)}
+        name={language}
+        onClick={e => setLang(e.currentTarget.name as Lang)}
+        key={key}
+      >
+        {getFlagFromContext(language as Lang)}
+      </button>
+    );
+  });
 }
 
 export const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {

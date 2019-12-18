@@ -1,7 +1,6 @@
 .app {
   width: 100%;
   height: 100%;
-  overflow: scroll;
 
   .invitationSection {
     display: flex;
@@ -13,5 +12,10 @@
     .happyImg {
       max-width: 44em;
     }
+  }
+
+  .eventCardsContainer {
+    width: 100%;
+    max-width: 54em;
   }
 }
