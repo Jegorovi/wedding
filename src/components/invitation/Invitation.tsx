@@ -10,7 +10,7 @@ export const Invitation: React.FC<{ lang: Lang}> = ({ lang }) => {
   return (
     <div className={cx(styles.container, isLargeText && styles.largeText, isCyrillic && styles.cyrillic)}>
       <div className={styles.innerContainer}>
-        <img src={process.env.PUBLIC_URL + "./palmLeaves.png"} className={styles.palmImg} alt=""/>
+        <img src={process.env.PUBLIC_URL + "/palmLeaves.png"} className={styles.palmImg} alt=""/>
         <div className={styles.text}>
           <h1
             className={styles.title}
