@@ -15,6 +15,9 @@ interface TranslationFields {
   saveTheDate: string;
   sara: string;
   roland: string;
+  giftCard: string;
+  travelCard: string;
+  foodCard: string;
 }
 
 export const translations: Record<Lang, TranslationFields> = {
@@ -35,6 +38,10 @@ export const translations: Record<Lang, TranslationFields> = {
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
+
+    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    foodCard: "Food and drinks will be covered by us",
   },
   [Lang.se]: {
     title: "Bröllop",
@@ -53,6 +60,10 @@ export const translations: Record<Lang, TranslationFields> = {
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
+
+    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    foodCard: "Food and drinks will be covered by us",
   },
   [Lang.pt]: {
     title: "Casamento{}de",
@@ -71,6 +82,10 @@ export const translations: Record<Lang, TranslationFields> = {
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
+
+    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    foodCard: "Food and drinks will be covered by us",
   },
   [Lang.lv]: {
     title: "Kāzas",
@@ -89,6 +104,10 @@ export const translations: Record<Lang, TranslationFields> = {
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
+
+    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    foodCard: "Food and drinks will be covered by us",
   },
   [Lang.ru]: {
     title: "Свадьба",
@@ -107,6 +126,10 @@ export const translations: Record<Lang, TranslationFields> = {
 
     sara: "Сары Нурдмир да Кунья",
     roland: "Роланда Егорова",
+
+    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    foodCard: "Food and drinks will be covered by us",
   },
 }
 

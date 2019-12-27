@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "antd/lib/card"
-import { faGift, faBed, faHamburger } from "@fortawesome/free-solid-svg-icons"
+import { faGift, faHamburger, faPlane } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from "./cards.module.scss";
+import { translations } from "../../i18t";
+import { LanguageContext } from "../../context";
 
 const cardHeadStyle: React.CSSProperties = {
   fontSize: "5em",
@@ -13,6 +15,8 @@ const cardHeadStyle: React.CSSProperties = {
 };
 
 export const Cards: React.FC = () => {
+  const lang = useContext(LanguageContext);
+
   return (
     <div className={styles.iconCardContainer}>
       <Card
@@ -20,21 +24,21 @@ export const Cards: React.FC = () => {
         title={<FontAwesomeIcon icon={faGift} />}
         headStyle={cardHeadStyle}
       >
-        Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers
+        {translations[lang].giftCard}
       </Card>
       <Card
         className={styles.iconCard}
-        title={<FontAwesomeIcon icon={faBed} />}
+        title={<FontAwesomeIcon icon={faPlane} />}
         headStyle={cardHeadStyle}
       >
-        We would love to see you here, but, unfortunately, accommodations are not covered by us
+        {translations[lang].travelCard}
       </Card>
       <Card
         className={styles.iconCard}
         title={<FontAwesomeIcon icon={faHamburger} />}
         headStyle={cardHeadStyle}
       >
-        Food and drinks will be covered by us
+        {translations[lang].foodCard}
       </Card>
     </div>
   );
