@@ -25,6 +25,10 @@
 
   &.largeText .text {
     font-size: 0.8em;
+
+    @media (orientation: portrait) and (max-width: 480px) {
+      font-size: 1.7vw;
+    }
   }
 
   &.cyrillic .text {
@@ -54,6 +58,11 @@
 .text {
   position: absolute;
   font-size: 0.9em;
+
+
+  @media (orientation: portrait) and (max-width: 480px) {
+    font-size: 1.8vw;
+  }
 
   .title,
   .and,

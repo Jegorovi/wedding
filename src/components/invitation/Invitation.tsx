@@ -4,13 +4,14 @@ import styles from "./invitation.module.scss";
 import { Lang } from "../../context";
 import { translations, translate } from "../../i18t";
 
-export const Invitation: React.FC<{ lang: Lang}> = ({ lang }) => {
+export const Invitation: React.FC<{ lang: Lang }> = ({ lang }) => {
   const isLargeText = [Lang.ru, Lang.lv].includes(lang);
   const isCyrillic = lang === Lang.ru;
+
   return (
     <div className={cx(styles.container, isLargeText && styles.largeText, isCyrillic && styles.cyrillic)}>
       <div className={styles.innerContainer}>
-        <img src={process.env.PUBLIC_URL + "/palmLeaves.png"} className={styles.palmImg} alt=""/>
+        <img src={process.env.PUBLIC_URL + "/palmLeaves.jpg"} className={styles.palmImg} alt=""/>
         <div className={styles.text}>
           <h1
             className={styles.title}

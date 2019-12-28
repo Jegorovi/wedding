@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import Card from "antd/lib/card"
 import { faGift, faHamburger, faPlane } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import styles from "./cards.module.scss";
 import { translations } from "../../i18t";
 import { LanguageContext } from "../../context";
+
+import styles from "./cards.module.scss";
 
 const cardHeadStyle: React.CSSProperties = {
   fontSize: "5em",
@@ -14,7 +14,7 @@ const cardHeadStyle: React.CSSProperties = {
   color: "#fdcb6e",
 };
 
-export const Cards: React.FC = () => {
+export const Cards: React.FC = React.memo(() => {
   const lang = useContext(LanguageContext);
 
   return (
@@ -42,4 +42,6 @@ export const Cards: React.FC = () => {
       </Card>
     </div>
   );
-}
+});
+
+export default Cards;
