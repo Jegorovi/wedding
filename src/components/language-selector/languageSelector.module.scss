@@ -36,6 +36,10 @@
       width: 1em;
       display: block;
       height: 0.9em;
+
+      &.windows {
+        line-height: 0.8;
+      }
     }
   }
 }

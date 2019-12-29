@@ -9,17 +9,18 @@ interface LanguageSelectorProps {
 }
 
 const getFlagFromContext = (lang: Lang) => {
+  const isWindows = window.navigator.userAgent.includes("Windows");
   switch(lang) {
     case Lang.en:
-      return <span role="img" className={styles.flag} aria-label="british-flag">🇬🇧</span>;
+      return <span role="img" className={cx(styles.flag, isWindows && styles.windows)} aria-label="british-flag">🇬🇧</span>;
     case Lang.pt:
-      return <span role="img" className={styles.flag} aria-label="portuguese-flag">🇵🇹</span>;
+      return <span role="img" className={cx(styles.flag, isWindows && styles.windows)} aria-label="portuguese-flag">🇵🇹</span>;
     case Lang.se:
-        return <span role="img" className={styles.flag} aria-label="swedish-flag">🇸🇪</span>;
+        return <span role="img" className={cx(styles.flag, isWindows && styles.windows)} aria-label="swedish-flag">🇸🇪</span>;
     case Lang.lv:
-      return <span role="img" className={styles.flag} aria-label="latvian-flag">🇱🇻</span>;
+      return <span role="img" className={cx(styles.flag, isWindows && styles.windows)} aria-label="latvian-flag">🇱🇻</span>;
     case Lang.ru:
-      return <span role="img" className={styles.flag} aria-label="russian-flag">🇷🇺</span>;
+      return <span role="img" className={cx(styles.flag, isWindows && styles.windows)} aria-label="russian-flag">🇷🇺</span>;
     default:
       return null;
   }
