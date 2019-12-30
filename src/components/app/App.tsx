@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { LanguageContextProvider, Lang } from "../../context";
-import { LanguageSelector } from "../languageSelector/LanguageSelector";
+import { LanguageSelector } from "../language-selector/LanguageSelector";
 import { Invitation } from "../invitation/Invitation";
 import { Section } from "../section/Section";
 
