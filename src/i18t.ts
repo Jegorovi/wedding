@@ -32,16 +32,16 @@ export const translations: Record<Lang, TranslationFields> = {
     portugalEventShort: "Dinner in Portugal",
     finlandEventShort: "Dinner in Finland",
 
-    latviaEventDesc: "A midsummer inspired outdoor event with family and friends, and, of course, food and drinks. We will account for allergies and other special needs mentioned in the registration form below. The recommended attire is formal but that’s not mandatory. Hopefully the weather will be on our side, but just in case bring a jacket. We will ensure places to hide from rain. Place and time will be given after registration.",
+    latviaEventDesc: "A midsummer inspired event with family and friends, and, of course, food and drinks. We will account for allergies and other special needs mentioned in the registration form below. The recommended attire is formal but that’s not mandatory. Place and time will be given after registration.",
     portugalEventDesc: "A warm family evening dinner in the beautiful coastal town of Sesimbra. Place and time will be specified after registration.",
-    finlandEventDesc: "A cosy evening dinner in a nice restaurant in Vaasa to meet the family. Place and time will be specified after registration.",
+    finlandEventDesc: "A cosy evening dinner in a nice restaurant in Vaasa to meet with the family. Place and time will be specified after registration.",
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
 
-    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
+    giftCard: "Gifts are optional. If you still decide to give us a gift, we will be grateful for a money donation towards our future family house. An account will be setup for transfers",
     travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
-    foodCard: "Food and drinks will be covered by us",
+    foodCard: "We all love tasty food. Food and drinks will be covered by us",
   },
   [Lang.se]: {
     title: "Bröllop",
@@ -98,16 +98,16 @@ export const translations: Record<Lang, TranslationFields> = {
     portugalEventShort: "Vakariņas Portugālē",
     finlandEventShort: "Vakariņas Somija",
 
-    latviaEventDesc: "A midsummer inspired outdoor event with family and friends, and, of course, food and drinks. We will account for allergies and other special needs mentioned in the registration form below. The recommended attire is formal but that’s not mandatory. Hopefully the weather will be on our side, but just in case bring a jacket. We will ensure places to hide from rain. Place and time will be given after registration.",
-    portugalEventDesc: "A warm family evening dinner in the beautiful coastal town of Sesimbra. Place and time will be specified after registration.",
-    finlandEventDesc: "A cosy evening dinner in a nice restaurant in Vaasa to meet the family. Place and time will be specified after registration.",
+    latviaEventDesc: "Pirms līgo svētku ballīte ar ģimeni un draugiem un, protams, ēdieniem un dzērieninem. Mēs ņemism vērā jūsu alerģijas un īpašās vajadzības, kuras norādīsiet reģistrācijas formā. Rekomendējam vilkt formālu apģērbu, bet tas nav obligāts nosacījums. Vieta un laiks būs norādīts pēc reģistrācijas.",
+    portugalEventDesc: "Ģimenes vakariņas skaistā piekrastes pilsētā Sezimbra. Vieta un laiks būs norādīts pēc reģistrācijas.",
+    finlandEventDesc: "Mājīgas vakariņas jaukā restorānā Somijas pilsētā Vāzā (Vaasa), lai satiktos ar ģimeni. Vieta un laiks būs norādīts pēc reģistrācijas.",
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
 
-    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
-    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
-    foodCard: "Food and drinks will be covered by us",
+    giftCard: "Dāvanas nav obligātas. Ja Jūs tomēr izlemjat mums pasniegt dāvanu, mēs būsim pateicīgi par naudas ziedošanu mūsu nākotnes ģimenes mājai. Konts būs uzstādīts šim mērķim",
+    travelCard: "Mēs priecātos Jūs redzēt, bet, diemžēl, ceļošanas izmaksas mēs neapmaksājam. Tomēr, Latvijā dzīvesvieta tiks nodrošināta ballītes laikā",
+    foodCard: "Mēs visi mīlam gardi paēst. Ēdieni un dzērieni būs nodrošināti",
   },
   [Lang.ru]: {
     title: "Свадьба",
@@ -120,16 +120,16 @@ export const translations: Record<Lang, TranslationFields> = {
     portugalEventShort: "Ужин в Португалии",
     finlandEventShort: "Ужин в Финляндии",
 
-    latviaEventDesc: "A midsummer inspired outdoor event with family and friends, and, of course, food and drinks. We will account for allergies and other special needs mentioned in the registration form below. The recommended attire is formal but that’s not mandatory. Hopefully the weather will be on our side, but just in case bring a jacket. We will ensure places to hide from rain. Place and time will be given after registration.",
-    portugalEventDesc: "A warm family evening dinner in the beautiful coastal town of Sesimbra. Place and time will be specified after registration.",
-    finlandEventDesc: "A cosy evening dinner in a nice restaurant in Vaasa to meet the family. Place and time will be specified after registration.",
+    latviaEventDesc: "Летняя вечеринка с семьей и друзьями и, конечно, едой и напитками. Мы учтем аллергии и другие особенние потребности, которые Вы укажите в форме регистрации ниже. Рекомендованный дресс код - формальный. Место и время будет дано после регистрации",
+    portugalEventDesc: "Теплый семейный ужин в прекрасном прибрежном городе Сезимбра. Место и время будет дано после регистрации.",
+    finlandEventDesc: "Уютный ужин в приятном ресторане в Васа, чтобы встретиться с семьей.  Место и время будет дано после регистрации",
 
     sara: "Сары Нурдмир да Кунья",
     roland: "Роланда Егорова",
 
-    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
-    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
-    foodCard: "Food and drinks will be covered by us",
+    giftCard: "Подарки не обязательны. Если Вы все же решите нам что-то дарить, мы были бы благодарны за денежное пожертвование для нашего будушего семейного дома. Банковский счет будет сделан для этой цели",
+    travelCard: "Мы хотим Вас видеть, но, к сожалению, затраты на путешествия мы не оплачиваем. Однако, в Латвии жилье будет предоставлено во время вечеринки",
+    foodCard: "Мы все любим вкусно поесть. Еда и напитки будут предоставлены",
   },
 }
 
