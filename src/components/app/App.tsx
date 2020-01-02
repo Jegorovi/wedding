@@ -33,7 +33,6 @@ export const App: React.FC = React.memo(() => {
             <LazyCards />
           </Section>
         </React.Suspense>
-
         <React.Suspense fallback={null}>
           <Section>
             <LazyRegistrationForm />

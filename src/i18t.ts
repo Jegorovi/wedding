@@ -62,7 +62,7 @@ export const translations: Record<Lang, TranslationFields> = {
     roland: "Rolands Jegorovs",
 
     giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
-    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided for the day of the wedding.",
     foodCard: "Food and drinks will be covered by us",
   },
   [Lang.pt]: {
@@ -76,16 +76,16 @@ export const translations: Record<Lang, TranslationFields> = {
     portugalEventShort: "Jantar em Portugal",
     finlandEventShort: "Jantar na Finlândia",
 
-    latviaEventDesc: "A midsummer inspired outdoor event with family and friends, and, of course, food and drinks. We will account for allergies and other special needs mentioned in the registration form below. The recommended attire is formal but that’s not mandatory. Hopefully the weather will be on our side, but just in case bring a jacket. We will ensure places to hide from rain. Place and time will be given after registration.",
-    portugalEventDesc: "A warm family evening dinner in the beautiful coastal town of Sesimbra. Place and time will be specified after registration.",
-    finlandEventDesc: "A cosy evening dinner in a nice restaurant in Vaasa to meet the family. Place and time will be specified after registration.",
+    latviaEventDesc: "Um evento inspirado no solstício do verão, com família, amigos e, claro, comida e bebida. Teremos em atenção alergias ou outras necessidades especiais mencionadas no formulário de registo abaixo. O vestuário recomendado será formal, mas não é obrigatório. O sitio e hora serão enviados após registo.",
+    portugalEventDesc: "Um jantar de família acolhedor, no final da tarde, na linda vila piscatória de Sesimbra. O sitio e hora serão enviados após registo.",
+    finlandEventDesc: "Um jantar aconchegante de final de tarde, num bom restaurante em Vaasa para reunir com a família. O sitio e hora serão enviados após registo.",
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
 
-    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
-    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
-    foodCard: "Food and drinks will be covered by us",
+    giftCard: "Presentes são opcionais. No entanto, se ainda assim decidir dar-nos um presente, a prenda que nos ajudará mais é dinheiro. Iremos definir uma conta para que possa fazer transferência.",
+    travelCard: "Adoraríamos contar com a vossa presença, infelizmente não conseguimos cobrir despesas de viagem. Na Letónia, alojamento será providenciado, no entanto, apenas na noite do casamento.",
+    foodCard: "A comida e bebida serão oferecidas por nós.",
   },
   [Lang.lv]: {
     title: "Kāzas",

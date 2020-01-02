@@ -29,7 +29,7 @@ const getFlagFromContext = (lang: Lang) => {
 const renderButtons = ({ lang, setLang }: LanguageSelectorProps) => {
   return Object.keys(Lang).map((language, key) => {
     // Disabled until translations are available
-    if ([Lang.pt, Lang.se].includes(language as Lang)) {
+    if ([Lang.se].includes(language as Lang)) {
       return null;
     }
     return (
