@@ -18,6 +18,7 @@ interface TranslationFields {
   giftCard: string;
   travelCard: string;
   foodCard: string;
+  registrationDeadline: string;
 }
 
 export const translations: Record<Lang, TranslationFields> = {
@@ -42,6 +43,8 @@ export const translations: Record<Lang, TranslationFields> = {
     giftCard: "Gifts are optional. If you still decide to give us a gift, we will be grateful for a money donation towards our future family house. An account will be setup for transfers",
     travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
     foodCard: "We all love tasty food. Food and drinks will be covered by us",
+
+    registrationDeadline: "Registration deadline for the wedding is {}",
   },
   [Lang.se]: {
     title: "Bröllop",
@@ -64,6 +67,8 @@ export const translations: Record<Lang, TranslationFields> = {
     giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
     travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
     foodCard: "Food and drinks will be covered by us",
+
+    registrationDeadline: "Registration deadline for the wedding is {}",
   },
   [Lang.pt]: {
     title: "Casamento{}de",
@@ -86,6 +91,8 @@ export const translations: Record<Lang, TranslationFields> = {
     giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
     travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
     foodCard: "Food and drinks will be covered by us",
+
+    registrationDeadline: "Registration deadline for the wedding is {}",
   },
   [Lang.lv]: {
     title: "Kāzas",
@@ -108,6 +115,8 @@ export const translations: Record<Lang, TranslationFields> = {
     giftCard: "Dāvanas nav obligātas. Ja Jūs tomēr izlemjat mums pasniegt dāvanu, mēs būsim pateicīgi par naudas ziedošanu mūsu nākotnes ģimenes mājai. Konts būs uzstādīts šim mērķim",
     travelCard: "Mēs priecātos Jūs redzēt, bet, diemžēl, ceļošanas izmaksas mēs neapmaksājam. Tomēr, Latvijā dzīvesvieta tiks nodrošināta ballītes laikā",
     foodCard: "Mēs visi mīlam gardi paēst. Ēdieni un dzērieni būs nodrošināti",
+
+    registrationDeadline: "Pieteikšanās termiņš kāzām ir līdz {}",
   },
   [Lang.ru]: {
     title: "Свадьба",
@@ -130,6 +139,8 @@ export const translations: Record<Lang, TranslationFields> = {
     giftCard: "Подарки не обязательны. Если Вы все же решите нам что-то дарить, мы были бы благодарны за денежное пожертвование для нашего будушего семейного дома. Банковский счет будет сделан для этой цели",
     travelCard: "Мы хотим Вас видеть, но, к сожалению, затраты на путешествия мы не оплачиваем. Однако, в Латвии жилье будет предоставлено во время вечеринки",
     foodCard: "Мы все любим вкусно поесть. Еда и напитки будут предоставлены",
+
+    registrationDeadline: "Крайний срок регистрации на свадьбу {}",
   },
 }
 

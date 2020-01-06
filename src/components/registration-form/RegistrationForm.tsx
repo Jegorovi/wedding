@@ -1,5 +1,8 @@
 import React, { useContext } from "react";
 import { Lang, LanguageContext } from "../../context";
+import { translations, translate } from "../../i18t";
+
+import styles from "./RegistrationForm.module.scss";
 
 const langToFormMap = {
   [Lang.en]: `https://docs.google.com/forms/d/e/1FAIpQLSedtDtJtYlc119OgXm4djHMnDzSzMIbsmSCyCckTJJKQ6qA2w/viewform?embedded=true`,
@@ -13,18 +16,23 @@ export const RegistrationForm: React.FC = React.memo(() => {
   const lang = useContext(LanguageContext);
 
   return (
-    <iframe
-      src={`${langToFormMap[lang]}&hl=${lang}`}
-      width="640"
-      height="1500"
-      frameBorder="0"
-      marginHeight={0}
-      marginWidth={0}
-      lang={lang}
-      title="loadScreen"
-    >
-      Loading…
-    </iframe>
+    <div className={styles.container}>
+      <h1 className={styles.deadlineTitle}>
+        {translate(translations[lang].registrationDeadline, "01/03/2020")}
+      </h1>
+      <iframe
+        className={styles.form}
+        src={`${langToFormMap[lang]}&hl=${lang}`}
+        height="1500"
+        frameBorder="0"
+        marginHeight={0}
+        marginWidth={0}
+        lang={lang}
+        title="loadScreen"
+      >
+        Loading…
+      </iframe>
+    </div>
   );
 });
 
