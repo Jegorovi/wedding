@@ -41,7 +41,7 @@ export const translations: Record<Lang, TranslationFields> = {
     roland: "Rolands Jegorovs",
 
     giftCard: "Gifts are optional. If you still decide to give us a gift, we will be grateful for a money donation towards our future family house. An account will be setup for transfers",
-    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided.",
+    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided for the day of the wedding.",
     foodCard: "We all love tasty food. Food and drinks will be covered by us",
 
     registrationDeadline: "Registration deadline for the wedding is {}",
@@ -92,7 +92,7 @@ export const translations: Record<Lang, TranslationFields> = {
     travelCard: "Adoraríamos contar com a vossa presença, infelizmente não conseguimos cobrir despesas de viagem. Na Letónia, alojamento será providenciado, no entanto, apenas na noite do casamento.",
     foodCard: "A comida e bebida serão oferecidas por nós.",
 
-    registrationDeadline: "Registration deadline for the wedding is {}",
+    registrationDeadline: "A data limite para efectuar o registro é {}",
   },
   [Lang.lv]: {
     title: "Kāzas",
