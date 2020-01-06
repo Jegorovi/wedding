@@ -1,1 +1,0 @@
-{"version":3,"sources":["EventTabs.module.scss"],"names":[],"mappings":"AAAA,sCACE,UAAW,CACX,cAAe","file":"6.ea7ac610.chunk.css","sourcesContent":[".eventCardsContainer {\n  width: 100%;\n  max-width: 54em;\n}\n"]}
