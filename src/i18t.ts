@@ -47,9 +47,9 @@ export const translations: Record<Lang, TranslationFields> = {
     registrationDeadline: "Registration deadline for the wedding is {}",
   },
   [Lang.se]: {
-    title: "Bröllop",
+    title: "Bröllopet {} mellan",
     and: "och",
-    saveTheDate: "",
+    saveTheDate: "Save the date!",
     latviaEvent: "Lördag, 20/06/2020 - Fest | Lettland",
     portugalEvent: "Lördag, 04/07/2020 - Middag | Portugal",
     finlandEvent: "Lördag, 27/06/2020 - Middag | Finland",
@@ -57,18 +57,18 @@ export const translations: Record<Lang, TranslationFields> = {
     portugalEventShort: "Middag i Portugal",
     finlandEventShort: "Middag i Finland",
 
-    latviaEventDesc: "A midsummer inspired outdoor event with family and friends, and, of course, food and drinks. We will account for allergies and other special needs mentioned in the registration form below. The recommended attire is formal but that’s not mandatory. Hopefully the weather will be on our side, but just in case bring a jacket. We will ensure places to hide from rain. Place and time will be given after registration.",
-    portugalEventDesc: "A warm family evening dinner in the beautiful coastal town of Sesimbra. Place and time will be specified after registration.",
-    finlandEventDesc: "A cosy evening dinner in a nice restaurant in Vaasa to meet the family. Place and time will be specified after registration.",
+    latviaEventDesc: "En midsommarinspirerad fest med familj och vänner, och självklart mat och drinkar. Vi frågar därför efter allergier och specialdieter i formuläret nedan. Klädkoden är formell (inte obligatorisk). Plats och tid får du veta efter att du fyllt i formuläret.",
+    portugalEventDesc: "En familjemiddag i den vackra kuststaden Sesimbra. Plats och tid får du veta efter att du fyllt i formuläret.",
+    finlandEventDesc: "En mysig kväll på en fin restaurang tillsammans med familjen. Plats och tid får du veta efter att du fyllt i formuläret.",
 
     sara: "Sara Nordmyr da Cunha",
     roland: "Rolands Jegorovs",
 
-    giftCard: "Gifts are optional. If you still decide to give us a gift, the only option we accept is money. An account will be setup for transfers",
-    travelCard: "We would love to see you, but, unfortunately, travel expenses are not covered by us. In Latvia, accommodations will be provided for the day of the wedding.",
-    foodCard: "Food and drinks will be covered by us",
+    giftCard: "Gåvor är inget måste. Om du vill ge oss en gåva är vi tacksamma för en liten donation för vårt kommande hus. Ett konto kommer att grundas för detta",
+    travelCard: "Det skulle vara så roligt att se er, men tyvärr står vi inte för resekostnaderna. I Lettland står vi för boendet på bröllopsdagen.",
+    foodCard: "Vi älskar alla god mat. Mat och dryck står vi för.",
 
-    registrationDeadline: "Registration deadline for the wedding is {}",
+    registrationDeadline: "Anmälningen stänger {}",
   },
   [Lang.pt]: {
     title: "Casamento{}de",

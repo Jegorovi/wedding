@@ -28,10 +28,6 @@ const getFlagFromContext = (lang: Lang) => {
 
 const renderButtons = ({ lang, setLang }: LanguageSelectorProps) => {
   return Object.keys(Lang).map((language, key) => {
-    // Disabled until translations are available
-    if ([Lang.se].includes(language as Lang)) {
-      return null;
-    }
     return (
       <button
         className={cx(styles.langButton, language === lang && styles.active)}
