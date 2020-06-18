@@ -17,6 +17,7 @@ export const App: React.FC = React.memo(() => {
   return (
     <LanguageContextProvider value={lang}>
       <div className={styles.app}>
+        <div className={styles.banner}>Because of coronavirus the wedding festivities have been moved to summer 2021</div>
         <LanguageSelector lang={lang} setLang={setLang}/>
         <Section color="#fdcb6e">
           <div className={styles.invitationSection}>
